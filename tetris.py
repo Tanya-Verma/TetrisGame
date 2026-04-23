@@ -52,6 +52,13 @@ SHAPES=[
 
 grid=[[0 for _ in range(COLS)] for _ in range(ROWS)]
 
+def draw_grid():
+    for i in range(ROWS):
+        for j in range(COLS):
+            pygame.draw.rect(screen, (255,255,255), (x*BLOCK, y*BLOCK, BLOCK, BLOCK), 1)
+            
+
+
 
 
 
