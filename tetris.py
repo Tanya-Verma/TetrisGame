@@ -18,3 +18,14 @@ ROWS=HEIGHT//BLOCK
 
 
 
+
+screen=pygame.display.set_mode((WIDTH,HEIGHT))
+pygame.display.set_caption("Tetris")
+
+
+#defined the colors and shapes for tetris pieces
+
+
+
+
+
