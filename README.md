@@ -3,7 +3,7 @@
 *<h5>A simple Tetris game built using Python and Pygame. 
 The game includes <br>
 falling blocks,<br> collision detection, <br>
-line clearing,<br> and<br> real-time user controls.</h5>*
+line clearing, and<br> real-time user controls.</h5>*
 
 ## 🚀 Features
 <h5>- Random Tetris shapes<br>
