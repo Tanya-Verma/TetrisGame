@@ -74,8 +74,9 @@ def draw_block():
 
                 )
 
-def draw_piece(piece):
-    
+class Piece:
+    def __init__(self,shape):
+            
 
 
 
