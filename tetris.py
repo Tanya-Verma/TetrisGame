@@ -25,6 +25,28 @@ pygame.display.set_caption("Tetris")
 
 #defined the colors and shapes for tetris pieces
 
+COLORS =[
+    (0,255,255), #cyan
+    (255,255,0), #yelllow
+    (255,0,255), #magenta
+    (0,255,0),   #green
+    (255,0,0),   #red
+    (0,0,255),   #blue
+    (255,165,0)  #orange
+    ]
+
+SHAPES=[
+    [[1,1,1,1]],  # I
+    [[1,1,1], [0,1,0]],  # T
+    [[1,1,1], [1,0,0]],  # L
+    [[1,1,1], [0,0,1]],  # J
+    [[1,1], [1,1]],  # O
+    [[0,1,1], [1,1,0]],  # S
+    [[1,1,0], [0,1,1]]   # Z
+]
+
+
+grid=[[0 for _ in range(COLS)] for _ in range(ROWS)]
 
 
 
