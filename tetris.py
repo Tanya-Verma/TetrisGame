@@ -52,6 +52,8 @@ SHAPES=[
 
 grid=[[0 for _ in range(COLS)] for _ in range(ROWS)]
 
+#defined the border of the grid to prevent pieces from moving outside the game area
+
 def draw_grid():
     for y in range(ROWS):
         for x in range(COLS):
