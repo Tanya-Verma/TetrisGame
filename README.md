@@ -46,9 +46,7 @@ TetrisGame/<br>
 - Collision detection
 - Game loop logic
 
-
-
-## 👤 Author
+## 👩‍💻 Author
 *Tanya Verma*
 
 
