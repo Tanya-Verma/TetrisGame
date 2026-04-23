@@ -47,7 +47,7 @@ TetrisGame/<br>
 - Game loop logic
 
 ## 👩‍💻 Author
-*Tanya Verma*
+*Tanya Verma*<br>
 *Passionate about coding, problem-solving, and building projects*
 
 
