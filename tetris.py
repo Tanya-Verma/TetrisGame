@@ -74,6 +74,9 @@ def draw_block():
 
                 )
 
+def draw_piece(piece):
+    
+
 
 
 
