@@ -80,11 +80,10 @@ def draw_block():
 
 class Piece:
     def __init__(self):
-        self.__init__
-
-
-
-
+        self.figure=random.choice(SHAPES)
+        self.color=random.choice(COLORS)
+        self.x=COLS//2-len(self.figure[0])//2
+        self.y=0
 
 
 
