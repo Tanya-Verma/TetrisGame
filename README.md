@@ -4,3 +4,57 @@
 The game includes <br>
 falling blocks,<br> collision detection, <br>
 line clearing,<br> and<br> real-time user controls.</h5>*
+
+## 🚀 Features
+- Random Tetris shapes
+- Smooth block movement
+- Rotation functionality
+- Collision detection
+- Line clearing system
+- Keyboard controls
+
+## 🛠️ Tech Stack
+- Python
+- Pygame
+
+## ▶️ How to Run
+
+1. Install Python
+2. Install Pygame:
+   pip install pygame
+3. Run the file:
+   python tetris.py
+
+
+## 🎮 Controls
+- Left Arrow → Move Left
+- Right Arrow → Move Right
+- Down Arrow → Move Down
+- Up Arrow → Rotate
+
+
+## 📁 Project Structure
+
+TetrisGame/
+│── tetris.py
+│── README.md
+
+
+## 🧠 Concepts Used 
+- Object-Oriented Programming (OOP)
+- Matrix manipulation
+- Collision detection
+- Game loop logic
+
+
+
+## 👤 Author
+*Tanya Verma*
+
+
+
+
+
+
+
+   
