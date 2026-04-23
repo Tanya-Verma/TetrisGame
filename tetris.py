@@ -9,7 +9,8 @@ pygame.init()
 
 #created the game screen of aspect ratio of 
 #defined column and rows of screen
-#intialised the BLOCK 
+#intialised the BLOCK size to 30
+#math to calculate the number of columns and rows in the game screen
 WIDTH,HEIGHT =300,600
 BLOCK=30
 COLS=WIDTH//BLOCK
