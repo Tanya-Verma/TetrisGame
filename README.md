@@ -27,10 +27,10 @@ line clearing,<br> and<br> real-time user controls.</h5>*
 
 
 ## 🎮 Controls
-- Left Arrow → Move Left
-- Right Arrow → Move Right
-- Down Arrow → Move Down
-- Up Arrow → Rotate
+- ⬅️ `Left Arrow → Move Left`
+- ➡️ `Right Arrow → Move Right`
+- ⬇️ `Down Arrow → Move Down`
+- ⬆️ `Up Arrow → Rotate`
 
 
 ## 📁 Project Structure
