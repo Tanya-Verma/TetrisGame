@@ -74,9 +74,14 @@ def draw_block():
 
                 )
 
+'''Created a class to represent the tetris pieces, which will have attributes for the shape,
+ color, and position of the piece on the grid.
+ The class will also have methods for moving and rotating the piece.'''
+
 class Piece:
     def __init__(self):
-        self.figure(random.randint(0,
+        self.__init__
+
 
 
 
