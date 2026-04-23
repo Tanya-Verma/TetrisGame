@@ -45,8 +45,13 @@ SHAPES=[
     [[1,1,0], [0,1,1]]   # Z
 ]
 
+#created a grid to represent the game state, initialized with zeros
+#instead of using a 2D list, we can use a single list to represent the grid, 
+# where each element corresponds to a cell in the grid
+
 
 grid=[[0 for _ in range(COLS)] for _ in range(ROWS)]
+
 
 
 
