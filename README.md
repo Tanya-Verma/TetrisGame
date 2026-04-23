@@ -6,16 +6,16 @@ falling blocks,<br> collision detection, <br>
 line clearing,<br> and<br> real-time user controls.</h5>*
 
 ## 🚀 Features
-<h5>- Random Tetris shapes
-- Smooth block movement
-- Rotation functionality
-- Collision detection
-- Line clearing system
+<h5>- Random Tetris shapes<br>
+- Smooth block movement<br>
+- Rotation functionality<br>
+- Collision detection<br>
+- Line clearing system<br>
 - Keyboard controls</h5>
 
-`## 🛠️ Tech Stack
-- Python
-- Pygame`
+## 🛠️ Tech Stack
+- `Python`
+- `Pygame`
 
 ## ▶️ How to Run
 
