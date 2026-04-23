@@ -75,8 +75,9 @@ def draw_block():
                 )
 
 class Piece:
-    def __init__(self,shape):
-            
+    def __init__(self):
+        self.figure(random.randint(0,
+
 
 
 
