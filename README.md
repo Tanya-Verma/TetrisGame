@@ -48,6 +48,7 @@ TetrisGame/<br>
 
 ## 👩‍💻 Author
 *Tanya Verma*
+*Passionate about coding, problem-solving, and building projects*
 
 
 
