@@ -119,7 +119,14 @@ class Piece:
         grid=new_grid
 
 
-#main game loop
+clock=pygame.time.Clock()
+piece=piece()
+running=True
+fall_time=0
+
+while running:
+    screen.fill((0,0,0))
+    
 
 
 
