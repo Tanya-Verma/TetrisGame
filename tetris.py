@@ -1,3 +1,5 @@
+from heapq import merge
+
 import pygame
 import random
 
@@ -128,6 +130,34 @@ while running:
     screen.fill((0,0,0))
     fall_time+=clock.get_rawtime()
     clock.tick()
+    if fall_time>500:
+        piece.move(0,1)
+        if piece.collision():
+            piece.move(0,-1)
+            merge(piece)
+            clear_lines()  # type: ignore
+            piece=Piece()
+            if piece.collision():
+                running=False
+                fall_time=0
+            for event in pygame.event.get():
+                if event.type==pygame.QUIT:
+                    running=False
+
+                    
+
+
+
+
+
+
+
+
+
+            
+
+        
+
 
 
 
