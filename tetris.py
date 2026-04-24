@@ -120,7 +120,7 @@ class Piece:
 
 
 clock=pygame.time.Clock()
-piece=piece()
+piece=Piece()
 running=True
 fall_time=0
 
@@ -128,7 +128,7 @@ while running:
     screen.fill((0,0,0))
     fall_time+=clock.get_rawtime()
     clock.tick()
-    
+
 
 
 
