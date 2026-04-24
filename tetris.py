@@ -144,7 +144,41 @@ while running:
                 if event.type==pygame.QUIT:
                     running=False
 
+                if event.type==pygame.KEYDOWN:
+                    if event.key==pygame.K_LEFT:
+                    piece.move(0,-1)
+                    if piece.collision():
+                        piece.move(0,1)
                     
+                    if event.key==pygame.k_RIGHT:
+                        piece.move(0,1)
+                        if piece.collision():
+                            piece.move(0.-1)
+
+                    if event.key==pygame.K_DOWN:
+                        piece.move(0,1)
+                        if piece.collision():
+                            piece.move(0,-1)
+
+                    if event.key==pygame.K_UP:
+                        piece.rotate()
+                        if piece.collission():
+                            piece.rotate()
+                            piece.rotate()
+                            piece.rotate()
+
+    draw_blocks()
+    piece.draw()
+    draw_grid()
+
+    pygame.display.update()
+
+pygame.quit()
+    
+
+
+
+
 
 
 
