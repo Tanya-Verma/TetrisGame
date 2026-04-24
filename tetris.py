@@ -126,6 +126,8 @@ fall_time=0
 
 while running:
     screen.fill((0,0,0))
+    fall_time+=clock.get_rawtime()
+    clock.tick()
     
 
 
