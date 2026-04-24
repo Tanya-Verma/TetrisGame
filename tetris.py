@@ -57,22 +57,14 @@ grid=[[0 for _ in range(COLS)] for _ in range(ROWS)]
 def draw_grid():
     for y in range(ROWS):
         for x in range(COLS):
-            pygame.draw.rect(
-                screen,
-                (40, 40, 40),
-                (x * BLOCK, y * BLOCK, BLOCK, BLOCK),
-                1,
-            )
+            pygame.draw.rect(screen, (40, 40, 40),(x * BLOCK, y * BLOCK, BLOCK, BLOCK), 1, )
 
 def draw_block():
     for y in range(ROWS):
         for x in range(COLS):
-            if grid[y][x]!=0:
-                pygame.draw.rect(
-                    screen,
-                    grid[y][x],
-
-                )
+            if grid[y][x]:
+                pygame.draw.rect(screen, grid[y][x],(x*BLOCK,y*BLOCK,BLOCK,BLOCK))
+                
 
 '''Created a class to represent the tetris pieces, which will have attributes for the shape,
  color, and position of the piece on the grid.
