@@ -79,15 +79,62 @@ class Piece:
         self.width=COLS
         self.height=ROWS
         self.grid=grid
-
+# making draw, rotate, move, and collision methods for the Piece class
 
     def draw(self):
+        for i,row in enumerate(self.figure):
+            for j,val in enumerate(row):
+                if val:
+                    pygame.draw.rect(screen,self.color,((self.x+j)*BLOCK,(self.y+i)*BLOCK,BLOCK,BLOCK))
+        
+    def move(self,dx,dy):
+        self.x += dx
+        self.y += dy
+
+    def rotate(self):
+        self.figure=[list(row) for row in zip(*self.figure[::-1])]
         
 
+    def collision(self,dx,dy):
+        for i,row in enumerate(self.figure):
+            for j,val in enumerate(row):
+                if val:
+                    if i + self.y > self.height - 1 or j + self.x < 0 or j + self.x > self.width - 1 or (self.y + i >= 0 and self.grid[self.y + i][self.x + j]):
+                        return True
+        return False
     
+    def merge(piece):
+        for i,row in enumerate(piece.figure):
+            for j,val in enumerate(row):
+                if val:
+                    grid[piece.y + i][piece.x + j]=piece.color
 
+
+    def clear_lines():
+        global grid
+        new_grid=[row for row in grid if any(cell ==0 for cell in row)]
+        lines_cleared=ROWS-len(new_grid)
+        for _ in range(lines_cleared):
+            new_grid.insert(0, [0 for _ in range(COLS)])
+        grid=new_grid
+
+
+#main game loop
+
+
+
+
+
+
+
+  
+
+
+ 
+
+
+                
     
-            
 
 
 
