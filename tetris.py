@@ -76,6 +76,14 @@ class Piece:
         self.color=random.choice(COLORS)
         self.x=COLS//2-len(self.figure[0])//2
         self.y=0
+        self.width=COLS
+        self.height=ROWS
+        self.grid=grid
+
+    def draw(Self):
+        for i,row in enumerate(self.figure):
+            
+
 
 
 
