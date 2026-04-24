@@ -80,8 +80,7 @@ class Piece:
         self.height=ROWS
         self.grid=grid
 
-    def draw(Self):
-        for i,row in enumerate(self.figure):
+    
             
 
 
