@@ -80,6 +80,12 @@ class Piece:
         self.height=ROWS
         self.grid=grid
 
+
+    def draw(self):
+        
+
+    
+
     
             
 
