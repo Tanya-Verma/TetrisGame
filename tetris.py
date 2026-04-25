@@ -83,11 +83,13 @@ class Piece:
             for j,val in enumerate(row):
                 if val:
                     grid[self.y + i][self.x + j] = self.color
-
+    
+    score=0
     def clear_lines(self):
         global grid
         new_grid = [row for row in grid if any(cell == 0 for cell in row)]
         lines_cleared = ROWS - len(new_grid)
+        self.score += lines_cleared * 100  
         for _ in range(lines_cleared):
             new_grid.insert(0, [0 for _ in range(COLS)])
         grid = new_grid
@@ -129,6 +131,11 @@ while running:
                     piece.rotate()
                     piece.rotate()
 
+            if event.key==pygame.K_p:
+                paused=not paused
+
+
+if not paused:
     if fall_time > 500:
         piece.move(0,1)
         if piece.collision():
@@ -143,6 +150,10 @@ while running:
     draw_block()
     piece.draw()
     draw_grid()
+
+    font_small=pygame.font.SysFont("Arial",25)
+    score_text=font_small.render(f"Score:{piece.score}",True,(255,255,255))
+    screen.blit(score_text,(10,10))
 
     pygame.display.update()
 
