@@ -14,7 +14,7 @@ line clearing, and<br> real-time user controls.</h5>*
 - Keyboard controls</h5>
 
 ##  Tech Stack
-- `Python`
+- `Python3`
 - `Pygame`
 
 ## How to Run
