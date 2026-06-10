@@ -32,6 +32,7 @@ line clearing, and<br> real-time user controls.</h5>*
 - ⬇️ `Down Arrow → Move Down`
 - ⬆️ `Up Arrow → Rotate`
 - ⏸️ `Pause Button`
+- 🥇`score Button`
 
 
 
