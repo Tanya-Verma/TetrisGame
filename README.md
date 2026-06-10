@@ -31,6 +31,8 @@ line clearing, and<br> real-time user controls.</h5>*
 - ➡️ `Right Arrow → Move Right`
 - ⬇️ `Down Arrow → Move Down`
 - ⬆️ `Up Arrow → Rotate`
+- ⏸️ `Pause Button`
+
 
 
 ## Project Structure
